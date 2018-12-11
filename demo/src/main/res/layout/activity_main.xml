@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <com.amok.ringprogressbar.RingProgressBar
+        android:id="@+id/ringProgressBar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:max="100"
+        app:ringColor="@color/pop_transparency"
+        app:ringProgressColor="@color/category_6"
+        app:ringWidth="1.5dp"
+        app:style="STROKE"
+        app:textColor="@color/white"
+        app:showText="true"
+        app:textSize="10sp" />
+
+
+
+    <com.amok.ringprogressbar.RingProgressBar
+        android:id="@+id/ringProgressBar2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        app:max="100"
+        app:ringColor="@color/pop_transparency"
+        app:ringProgressColor="@color/category_6"
+        app:ringWidth="2dp"
+        app:style="STROKE"
+        app:textColor="@color/white"
+        app:showText="true"
+        app:textSize="10sp" />
+
+
+    <com.amok.ringprogressbar.RingProgressBar
+        android:id="@+id/ringProgressBar3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        app:max="100"
+        app:ringColor="@color/pop_transparency"
+        app:ringProgressColor="@color/category_6"
+        app:ringWidth="2dp"
+        app:fillPadding="1dp"
+        app:style="FILL"
+        app:textColor="@color/white"
+        app:showText="true"
+        app:textSize="10sp" />
+</LinearLayout>
